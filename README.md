@@ -1,7 +1,7 @@
+# The Random Wallpaper Script
 Set the **same** random wallpaper on multiple monitors without any "fancy" app. 
 
 # How to Install
-
 1. Clone this repository and change to its directory:
 ```
 $ git clone https://github.com/tiagomiguelcs/random-wallpaper.git
