@@ -17,7 +17,7 @@ path=~/Pictures/wallpapers/
 ```
 4. In your desktop settings, set the wallpaper to the one defined in the script (e.g., ``~/Pictures/twall/today.jpg``)<img src="screenshots/desktop-settings.png" width="400px" height="385px" alt="desktop-settings"/>
 
-5. Add the following line to your ``.profile`` file in order to set a random wallpaper each time you log in (don't forget to replace ``path_to_repo`` with the actual path of the repo):
+5. Add the following line to your ``.profile`` file in order to set a random wallpaper each time you login (don't forget to replace ``path_to_repo`` with the actual path of the repo):
 ```
 ~/[path_to_repo]/rwallpaper
 ```
