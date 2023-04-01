@@ -7,14 +7,18 @@ Set the <ins><b>same</b></ins> random wallpaper on multiple monitors without any
 $ git clone https://github.com/tiagomiguelcs/random-wallpaper.git
 $ cd random-wallpaper
 ```
-2. Run the script
+2. In the script set the path to the walpapers' directory:
+```
+path=~/Pictures/wallpapers/ 
+```
+3. Run the script
 ```
 ./rwallpaper
 ```
-3. In your desktop settings, set the wallpaper to the one defined in the script (e.g., ``~/Pictures/twall/today.jpg``)<img src="screenshots/desktop-settings.png" width="400px" height="385px" alt="desktop-settings"/>
+4. In your desktop settings, set the wallpaper to the one defined in the script (e.g., ``~/Pictures/twall/today.jpg``)<img src="screenshots/desktop-settings.png" width="400px" height="385px" alt="desktop-settings"/>
 
-4. Add the following line to your ``.profile`` file in order to set a random wallpaper each time you log in (don't forget to replace ``path_to_repo`` with the actual path of the repo):
+5. Add the following line to your ``.profile`` file in order to set a random wallpaper each time you log in (don't forget to replace ``path_to_repo`` with the actual path of the repo):
 ```
 ~/[path_to_repo]/rwallpaper
 ```
-5. Enjoy! For a set of awesome wallpapers, I suggest those available [here](https://gitlab.com/dwt1/wallpapers).
+6. Enjoy! For a set of awesome wallpapers, I suggest those available [here](https://gitlab.com/dwt1/wallpapers).
