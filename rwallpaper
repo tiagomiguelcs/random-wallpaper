@@ -1,7 +1,7 @@
 #!/bin/bash
 # Set the directory where all the fancy wallpapers are located
 path=~/Pictures/wallpapers/ 
-# Define the directory where the choosen random  wallpaper will be stored
+# Define the directory where the chosen random wallpaper will be stored
 tpath=~/Pictures/twall/ 
 # Set the filename of the random wallpaper
 today=$tpath
