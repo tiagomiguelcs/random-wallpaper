@@ -15,6 +15,6 @@ $ cd random-wallpaper
 
 4. Add the following line to your ``.profile`` file in order to set a random wallpaper each time you log in (don't forget to replace ``path_to_repo`` with the actual path of the repo):
 ```
-[path_to_repo]/rwallpaper
+~/[path_to_repo]/rwallpaper
 ```
 5. Enjoy! For a set of awesome wallpapers, I suggest those available [here](https://gitlab.com/dwt1/wallpapers).
