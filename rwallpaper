@@ -1,0 +1,14 @@
+#!/bin/bash
+# Set the directory where all the fancy wallpapers are located
+path=~/Pictures/wallpapers/ 
+# Define the directory where the choosen random  wallpaper will be stored
+tpath=~/Pictures/twall/ 
+# Set the filename of the random wallpaper
+today=$tpath
+today+=today.jpg
+cd $path
+# Pick a random wallpaper
+wallpaper=$path
+wallpaper+=$(ls | shuf -n 1)
+#echo $tpath $wallpaper $today
+mkdir -p $tpath && cp $wallpaper $today
