@@ -1,4 +1,4 @@
-# The Random Wallpaper Script
+# The Random Wallpaper Bash Script
 Set the **same** random wallpaper on multiple monitors without any "fancy" app. 
 
 # How to Install
