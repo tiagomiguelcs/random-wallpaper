@@ -7,7 +7,7 @@ Set the <ins><b>same</b></ins> random wallpaper on multiple monitors without any
 $ git clone https://github.com/tiagomiguelcs/random-wallpaper.git
 $ cd random-wallpaper
 ```
-2. In the script set the ``path`` variable to the walpapers' directory:
+2. In the script, set the ``path`` variable to the wallpapers' directory:
 ```
 path=~/Pictures/wallpapers/ 
 ```
