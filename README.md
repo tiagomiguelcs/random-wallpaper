@@ -1,5 +1,5 @@
 # The Random Wallpaper Bash Script
-Set the **same** random wallpaper on multiple monitors without any "fancy" app. 
+Set the **same** random wallpaper on multiple monitors without any "fancy" app. The script was successfully tested using [Linux Mint 21.1 Xfce Edition](https://linuxmint.com/rel_vera_xfce_whatsnew.php). 
 
 # How to Install
 1. Clone this repository and change to its directory:
@@ -11,12 +11,10 @@ $ cd random-wallpaper
 ```
 ./rwallpaper
 ```
-3. In your desktop settings, set the wallpaper to the one defined in the script (e.g., ```~/Pictures/twall/today.jpg```
+3. In your desktop settings, set the wallpaper to the one defined in the script (e.g., ``~/Pictures/twall/today.jpg``)<img src="screenshots/desktop-settings.png" width="400px" height="385px" alt="desktop-settings"/>
 
-4. Add the following line to your ``.profile`` file in order to set a random wallpaper each time you log in:
+4. Add the following line to your ``.profile`` file in order to set a random wallpaper each time you log in (don't forget to replace ``path_to_repo`` with the actual path of the repo):
 ```
 [path_to_repo]/rwallpaper
 ```
-Don't forget to replace ``path_to_repo`` with the actual path of the repo. 
-
 5. Enjoy! For a set of awesome wallpapers, I suggest those available [here](https://gitlab.com/dwt1/wallpapers).
