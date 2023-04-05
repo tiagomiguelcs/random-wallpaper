@@ -22,6 +22,7 @@ path=~/Pictures/wallpapers/
 If you are using the gnome desktop, please set the wallpaper as follows:
 ```
 gsettings set org.gnome.desktop.background picture-uri-dark file:///home/[username]/Pictures/twall/today.jpg
+gsettings set org.gnome.desktop.background picture-uri file:///home/[username]/Pictures/twall/today.jpg
 ```
 
 5. Add the following line to your ``.profile`` file in order to set a random wallpaper each time you login (don't forget to replace ``path_to_repo`` with the actual path of the repo):
