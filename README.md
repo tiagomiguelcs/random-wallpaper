@@ -7,9 +7,13 @@ Set the <ins><b>same</b></ins> random wallpaper on multiple monitors without any
 $ git clone https://github.com/tiagomiguelcs/random-wallpaper.git
 $ cd random-wallpaper
 ```
-2. In the script, set the ``path`` variable to the wallpapers' directory:
+2. (Optional) In the script, set the ``path`` variable to the wallpapers' directory:
 ```
 path=~/Pictures/wallpapers/ 
+```
+3. Run the install script:
+```
+./install.sh
 ```
 3. Run the script
 ```
@@ -24,9 +28,8 @@ If you are using the gnome desktop, please set the wallpaper as follows:
 gsettings set org.gnome.desktop.background picture-uri-dark file:///home/[username]/Pictures/twall/today.jpg
 gsettings set org.gnome.desktop.background picture-uri file:///home/[username]/Pictures/twall/today.jpg
 ```
-
-5. Add the following line to your ``.profile`` file in order to set a random wallpaper each time you login (don't forget to replace ``path_to_repo`` with the actual path of the repo):
+(Alternative) Use `feh` to set the wallpaper: 
 ```
-~/[path_to_repo]/rwallpaper
+feh --bg-scale ~/Pictures/twall/today.jpg
 ```
-6. Enjoy!
+5. Enjoy!
