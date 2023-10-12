@@ -1,5 +1,5 @@
 # The Random Wallpaper Bash Script (rwallpaper)
-Set the <ins><b>same</b></ins> random wallpaper on multiple monitors without any "fancy" app. The script was successfully tested using [Linux Mint 21.1 Xfce Edition](https://linuxmint.com/rel_vera_xfce_whatsnew.php) and [Pop!_OS](https://pop.system76.com/). For a set of awesome wallpapers, I suggest those available [here](https://gitlab.com/dwt1/wallpapers).
+Set the <ins><b>same</b></ins> random wallpaper on multiple monitors without any "fancy" app. The script was successfully tested using [Linux Mint 21.1 Xfce Edition](https://linuxmint.com/rel_vera_xfce_whatsnew.php), [Pop!_OS](https://pop.system76.com/), and [Debian 12](https://www.debian.org/index.pt.html) with the Cinnamon desktop environment.
 
 # How to Install
 1. Clone this repository and change to its directory:
