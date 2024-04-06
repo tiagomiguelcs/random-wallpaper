@@ -11,13 +11,9 @@ $ cd random-wallpaper
 ```
 path=~/Pictures/wallpapers/ 
 ```
-3. Run the install script:
+3. Run the install script and the main script:
 ```
-./install.sh
-```
-3. Run the script
-```
-./rwallpaper
+./install.sh && ./rwallpaper
 ```
 4. In your desktop settings, set the wallpaper to the one defined in the script (e.g., ``~/Pictures/twall/today.jpg``)
 
