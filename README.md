@@ -28,7 +28,7 @@ path=~/Pictures/wallpapers/
 gsettings set org.gnome.desktop.background picture-uri-dark file:///home/[username]/Pictures/twall/today.jpg
 gsettings set org.gnome.desktop.background picture-uri file:///home/[username]/Pictures/twall/today.jpg
 ```
-(**Alternative**) Use `feh` to set the wallpaper: 
+(**Alternative**) Use `feh` or similar to set the wallpaper: 
 ```
 feh --bg-scale ~/Pictures/twall/today.jpg
 ```
