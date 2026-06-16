@@ -60,11 +60,19 @@ fi
 
 echo
 echo "Found ${#files_to_delete[@]} low-resolution image(s)."
-read -rp "Delete them? [y/N] " answer
+read -rp "Delete or move them? [d=delete / m=move / N=cancel] " answer
 
-if [[ "$answer" =~ ^[Yy]$ ]]; then
+if [[ "$answer" =~ ^[Dd]$ ]]; then
     printf '%s\0' "${files_to_delete[@]}" | xargs -0 rm -f
     echo "Deleted ${#files_to_delete[@]} image(s)."
+elif [[ "$answer" =~ ^[Mm]$ ]]; then
+    read -rp "Enter destination folder name (will be created inside '$SEARCH_DIR'): " folder_name
+    dest_dir="${SEARCH_DIR%/}/$folder_name"
+    mkdir -p "$dest_dir"
+    for file in "${files_to_delete[@]}"; do
+        mv "$file" "$dest_dir/"
+    done
+    echo "Moved ${#files_to_delete[@]} image(s) to '$dest_dir'."
 else
-    echo "Nothing deleted."
+    echo "Nothing done."
 fi
