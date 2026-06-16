@@ -17,6 +17,11 @@ if [[ "$1" == "--help" || "$1" == "-h" ]]; then
     exit 0
 fi
 
+if [[ ! -x "$(command -v identify)" ]]; then
+    echo "Error: 'identify' not found. Install ImageMagick: https://imagemagick.org" >&2
+    exit 1
+fi
+
 MIN_WIDTH="${1:-1920}"
 MIN_HEIGHT="${2:-1080}"
 SEARCH_DIR="${3:-./wallpapers/standard/}"
