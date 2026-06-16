@@ -1,9 +1,9 @@
-# The Random Wallpaper Bash Script (`rwallpaper`)
+# The Random Wallpaper Bash Script 
 Set the <ins><b>same</b></ins> random wallpaper on multiple monitors without any "fancy" app. 
 
 The script was successfully tested under [Linux Mint 21.1 Xfce Edition](https://linuxmint.com/rel_vera_xfce_whatsnew.php), [Pop!_OS](https://pop.system76.com/), and [Debian 12](https://www.debian.org/index.pt.html) with the Cinnamon and Gnome desktop environments. However, it should also work on other Linux distributions and desktop environments with minimal or no modification.
 
-The included collection of wallpapers in `rwallpaper` is curated from Derek Taylor (Distrotube) and available at [dwt1/wallpapers](https://gitlab.com/dwt1/wallpapers).
+The wallpapers bundled with `rwallpaper` are curated from the collections of Derek Taylor (Distrotube) and Stephan Raabe. The original sources are available at [dwt1/wallpapers](https://gitlab.com/dwt1/wallpapers) and [mylinuxforwork/wallpaper](https://github.com/mylinuxforwork/wallpaper), respectively.
 
 # How to Install
 1. Clone this repository and change to its directory:
@@ -17,7 +17,7 @@ path=~/Pictures/wallpapers/
 ```
 2. Run the install script and the main script:
 ```
-./install.sh && ./rwallpaper
+./install.sh && ./rwallpaper.sh
 ```
 3. In your desktop settings, set the wallpaper to the one defined in the script (i.e., ``~/Pictures/twall/today.jpg``)
 
